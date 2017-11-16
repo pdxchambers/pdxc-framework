@@ -1,0 +1,316 @@
+@import "pdxc-wp-generated";
+
+$primary: #fff;
+$secondary: #000;
+$accent: #ababab;
+$cta: #790000;
+
+$font-stack: arial, sans-serif;
+
+/**
+* Top section for global styles that don't matter based on screen width (such as 
+* element color or text decoration). For actual layout and element sizing see 
+* the @media queries below.
+*/
+
+/**
+* Global elements
+*/
+
+body{
+    background-color: $primary;
+    color: $secondary; 
+    font-family: $font-stack;
+    font-size: 15px;
+    line-height: 1.25;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+/**
+* Site Layout IDs
+*/
+#site-container{
+    margin: 0;
+    padding: 0;
+}
+
+#site-content{
+    padding: 10px;
+}
+
+#site-footer{
+    background-color: $accent;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    a {
+        color: $primary;
+        text-decoration: none;
+    }
+    p {
+        margin: 0;
+    }
+     
+}
+
+#site-header{
+    background-color: $accent;
+    h1 {
+        a {
+            color: $primary;
+            text-decoration: none;
+        }
+    }
+}
+
+#site-sidebar-l{}
+#site-sidebar-r{}
+
+/**
+* Post Layout Classes
+*/
+.post-content{
+    background-color: white;
+    padding: 0 10px;
+}
+.post-footer{
+    background-color: $accent;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    a {
+        color: $primary;
+        text-decoration: none;
+    }
+    p { 
+        margin: 0;
+    }
+}
+
+.single-post-footer, .page-footer{
+    background-color: $primary;
+    a{
+        color: $secondary;
+    }
+}
+.post-header{
+    background-color: $accent;
+    h2 {
+        a {
+            color: $primary;
+            text-decoration: none;
+        }
+    }
+}
+
+.single-post-header, .page-header{
+    background-color: $primary;
+    h2 {
+        a{
+            color: $secondary;
+        }
+    }
+}
+.post-meta{
+    font-weight: bold;
+	.author {}
+	.post-date{}
+}
+.post-thumb{}
+.post-title{}
+.post-wrapper{
+    border: thin solid $accent;
+    border-radius: 20px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.single-post-wrapper, .page-wrapper {
+    border: none;
+}
+
+/**
+* Previous and next post link styles for single posts and pages.
+*/
+#post-nav {
+    overflow: auto;
+}
+
+#prev-post {
+    float: left;
+    padding: 10px;
+}
+
+#next-post {
+    float: right;
+    padding: 10px;
+}
+
+
+/**
+* @media queries
+*/
+@media (max-width: 576px) {
+    #site-container{
+        max-width: 100%;
+    }
+
+    #site-content{
+        max-width: 100%;
+    }
+
+    #site-footer{
+        max-width: 100%;
+    }
+
+    #site-header{
+        padding: 10px;
+        text-align: center;
+    }
+
+    /**
+    * Sidebars are hidden for very small screens.
+    */
+    #site-sidebar-l{
+        display: none;
+    }
+
+    #site-sidebar-r{
+        display: none;
+    }
+    
+    /**
+    * Post Layout Classes
+    */
+    .post-content{}
+    .post-footer{}
+    .post-header{
+        padding: 10px;
+        max-width: 100%;
+        img {
+            max-height: 75px;
+            max-width: 320px;
+        }
+    }
+
+    .single-post-header {
+        img {
+            max-height: 150px;
+        }
+    }
+    .post-meta{
+        text-align: center;
+        .author {
+           margin: 0;
+        }
+        
+        .post-date{
+           margin: 0;
+        }
+    }
+    .post-thumb{
+        
+    }
+    .post-title{
+        margin: 0;
+        text-align:center;
+    }
+    .post-wrapper{}
+    
+    /**
+    * Comment and other styles
+    */
+    .depth-2 ol {
+        display: none;
+    }
+    
+    
+    
+
+    	
+}
+
+@media (max-width: 768px) {
+    #site-container{
+        max-width: 100%;
+    }
+
+    #site-content{
+        max-width: 100%;
+    }
+
+    #site-footer{
+        max-width: 100%;
+    }
+
+    #site-header{
+        padding: 10px;
+        text-align: center;
+    }
+
+    /**
+    * Sidebars are hidden for very small screens.
+    */
+    #site-sidebar-l{
+        display: none;
+    }
+
+    #site-sidebar-r{
+        display: none;
+    }
+    
+    /**
+    * Post Layout Classes
+    */
+    .post-content{}
+    .post-footer{}
+    .post-header{
+        padding: 10px;
+        max-width: 100%;
+        img {
+            max-height: 75px;
+            max-width: 320px;
+        }
+    }
+
+    .single-post-header {
+        img {
+            max-height: 150px;
+        }
+    }
+    .post-meta{
+        text-align: center;
+        .author {
+           margin: 0;
+        }
+        
+        .post-date{
+           margin: 0;
+        }
+    }
+    .post-thumb{
+        
+    }
+    .post-title{
+        margin: 0;
+        text-align:center;
+    }
+    .post-wrapper{}
+    
+    /**
+    * Comment and other styles
+    */
+    .depth-2 ol {
+        display: none;
+    }	
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 1200px) {
+    	
+}

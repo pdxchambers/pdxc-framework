@@ -1,0 +1,491 @@
+/* =WordPress Core
+-------------------------------------------------------------- */
+/* line 3, ../scss/_pdxc-wp-generated.scss */
+.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+/* line 8, ../scss/_pdxc-wp-generated.scss */
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+
+/* line 13, ../scss/_pdxc-wp-generated.scss */
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+/* line 18, ../scss/_pdxc-wp-generated.scss */
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+/* line 23, ../scss/_pdxc-wp-generated.scss */
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+/* line 28, ../scss/_pdxc-wp-generated.scss */
+a img.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+/* line 32, ../scss/_pdxc-wp-generated.scss */
+a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+/* line 37, ../scss/_pdxc-wp-generated.scss */
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 43, ../scss/_pdxc-wp-generated.scss */
+.wp-caption, .gallery-caption {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  max-width: 96%;
+  /* Image does not overflow the content area */
+  padding: 5px 3px 10px;
+  text-align: center;
+}
+
+/* line 51, ../scss/_pdxc-wp-generated.scss */
+.wp-caption.alignnone, .gallery-caption.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+/* line 55, ../scss/_pdxc-wp-generated.scss */
+.wp-caption.alignleft, .gallery-caption.alignleft {
+  margin: 5px 20px 20px 0;
+}
+
+/* line 59, ../scss/_pdxc-wp-generated.scss */
+.wp-caption.alignright, .gallery-caption.alignright {
+  margin: 5px 0 20px 20px;
+}
+
+/* line 63, ../scss/_pdxc-wp-generated.scss */
+.wp-caption img, .gallery-caption img {
+  border: 0 none;
+  height: auto;
+  margin: 0;
+  max-width: 98.5%;
+  padding: 0;
+  width: auto;
+}
+
+/* line 72, ../scss/_pdxc-wp-generated.scss */
+.wp-caption p.wp-caption-text, .gallery-caption p.wp-caption-text {
+  font-size: 11px;
+  line-height: 17px;
+  margin: 0;
+  padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+/* line 80, ../scss/_pdxc-wp-generated.scss */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+/* line 88, ../scss/_pdxc-wp-generated.scss */
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+
+/* line 108, ../scss/_pdxc-wp-generated.scss */
+.wp-post-image {
+  max-width: 100%;
+}
+
+/* line 112, ../scss/_pdxc-wp-generated.scss */
+.sticky {
+  padding: 1em;
+  background-color: #ccc;
+  border: thin solid #000;
+}
+
+/* line 118, ../scss/_pdxc-wp-generated.scss */
+.comment {
+  padding: 1em;
+  list-style-type: none;
+}
+
+/* line 123, ../scss/_pdxc-wp-generated.scss */
+.even {
+  background-color: #ccc;
+}
+
+/* line 127, ../scss/_pdxc-wp-generated.scss */
+.children .odd {
+  background-color: white;
+}
+
+/* line 131, ../scss/_pdxc-wp-generated.scss */
+.bypostauthor {
+  border-radius: 1em;
+  border: thin solid #000;
+  box-shadow: 3px 3px 3px #e0e0e0;
+}
+
+/* line 137, ../scss/_pdxc-wp-generated.scss */
+.video-container {
+  max-width: 100%;
+  overflow: hidden;
+  margin-bottom: 1.677em;
+}
+
+/* line 143, ../scss/_pdxc-wp-generated.scss */
+.video-container iframe, .video-container object, .video-container embed {
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+
+/**
+* Top section for global styles that don't matter based on screen width (such as 
+* element color or text decoration). For actual layout and element sizing see 
+* the @media queries below.
+*/
+/**
+* Global elements
+*/
+/* line 20, ../scss/pdxc-main-styles.scss */
+body {
+  background-color: white;
+  color: black;
+  font-family: arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.25;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+/**
+* Site Layout IDs
+*/
+/* line 34, ../scss/pdxc-main-styles.scss */
+#site-container {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 39, ../scss/pdxc-main-styles.scss */
+#site-content {
+  padding: 10px;
+}
+
+/* line 43, ../scss/pdxc-main-styles.scss */
+#site-footer {
+  background-color: #ababab;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+/* line 48, ../scss/pdxc-main-styles.scss */
+#site-footer a {
+  color: white;
+  text-decoration: none;
+}
+/* line 52, ../scss/pdxc-main-styles.scss */
+#site-footer p {
+  margin: 0;
+}
+
+/* line 58, ../scss/pdxc-main-styles.scss */
+#site-header {
+  background-color: #ababab;
+}
+/* line 61, ../scss/pdxc-main-styles.scss */
+#site-header h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+/**
+* Post Layout Classes
+*/
+/* line 74, ../scss/pdxc-main-styles.scss */
+.post-content {
+  background-color: white;
+  padding: 0 10px;
+}
+
+/* line 78, ../scss/pdxc-main-styles.scss */
+.post-footer {
+  background-color: #ababab;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+/* line 83, ../scss/pdxc-main-styles.scss */
+.post-footer a {
+  color: white;
+  text-decoration: none;
+}
+/* line 87, ../scss/pdxc-main-styles.scss */
+.post-footer p {
+  margin: 0;
+}
+
+/* line 92, ../scss/pdxc-main-styles.scss */
+.single-post-footer, .page-footer {
+  background-color: white;
+}
+/* line 94, ../scss/pdxc-main-styles.scss */
+.single-post-footer a, .page-footer a {
+  color: black;
+}
+
+/* line 98, ../scss/pdxc-main-styles.scss */
+.post-header {
+  background-color: #ababab;
+}
+/* line 101, ../scss/pdxc-main-styles.scss */
+.post-header h2 a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 108, ../scss/pdxc-main-styles.scss */
+.single-post-header, .page-header {
+  background-color: white;
+}
+/* line 111, ../scss/pdxc-main-styles.scss */
+.single-post-header h2 a, .page-header h2 a {
+  color: black;
+}
+
+/* line 116, ../scss/pdxc-main-styles.scss */
+.post-meta {
+  font-weight: bold;
+}
+
+/* line 123, ../scss/pdxc-main-styles.scss */
+.post-wrapper {
+  border: thin solid #ababab;
+  border-radius: 20px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+/* line 130, ../scss/pdxc-main-styles.scss */
+.single-post-wrapper, .page-wrapper {
+  border: none;
+}
+
+/**
+* Previous and next post link styles for single posts and pages.
+*/
+/* line 137, ../scss/pdxc-main-styles.scss */
+#post-nav {
+  overflow: auto;
+}
+
+/* line 141, ../scss/pdxc-main-styles.scss */
+#prev-post {
+  float: left;
+  padding: 10px;
+}
+
+/* line 146, ../scss/pdxc-main-styles.scss */
+#next-post {
+  float: right;
+  padding: 10px;
+}
+
+/**
+* @media queries
+*/
+@media (max-width: 576px) {
+  /* line 156, ../scss/pdxc-main-styles.scss */
+  #site-container {
+    max-width: 100%;
+  }
+
+  /* line 160, ../scss/pdxc-main-styles.scss */
+  #site-content {
+    max-width: 100%;
+  }
+
+  /* line 164, ../scss/pdxc-main-styles.scss */
+  #site-footer {
+    max-width: 100%;
+  }
+
+  /* line 168, ../scss/pdxc-main-styles.scss */
+  #site-header {
+    padding: 10px;
+    text-align: center;
+  }
+
+  /**
+  * Sidebars are hidden for very small screens.
+  */
+  /* line 176, ../scss/pdxc-main-styles.scss */
+  #site-sidebar-l {
+    display: none;
+  }
+
+  /* line 180, ../scss/pdxc-main-styles.scss */
+  #site-sidebar-r {
+    display: none;
+  }
+
+  /**
+  * Post Layout Classes
+  */
+  /* line 189, ../scss/pdxc-main-styles.scss */
+  .post-header {
+    padding: 10px;
+    max-width: 100%;
+  }
+  /* line 192, ../scss/pdxc-main-styles.scss */
+  .post-header img {
+    max-height: 75px;
+    max-width: 320px;
+  }
+
+  /* line 199, ../scss/pdxc-main-styles.scss */
+  .single-post-header img {
+    max-height: 150px;
+  }
+
+  /* line 203, ../scss/pdxc-main-styles.scss */
+  .post-meta {
+    text-align: center;
+  }
+  /* line 205, ../scss/pdxc-main-styles.scss */
+  .post-meta .author {
+    margin: 0;
+  }
+  /* line 209, ../scss/pdxc-main-styles.scss */
+  .post-meta .post-date {
+    margin: 0;
+  }
+
+  /* line 216, ../scss/pdxc-main-styles.scss */
+  .post-title {
+    margin: 0;
+    text-align: center;
+  }
+
+  /**
+  * Comment and other styles
+  */
+  /* line 225, ../scss/pdxc-main-styles.scss */
+  .depth-2 ol {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  /* line 236, ../scss/pdxc-main-styles.scss */
+  #site-container {
+    max-width: 100%;
+  }
+
+  /* line 240, ../scss/pdxc-main-styles.scss */
+  #site-content {
+    max-width: 100%;
+  }
+
+  /* line 244, ../scss/pdxc-main-styles.scss */
+  #site-footer {
+    max-width: 100%;
+  }
+
+  /* line 248, ../scss/pdxc-main-styles.scss */
+  #site-header {
+    padding: 10px;
+    text-align: center;
+  }
+
+  /**
+  * Sidebars are hidden for very small screens.
+  */
+  /* line 256, ../scss/pdxc-main-styles.scss */
+  #site-sidebar-l {
+    display: none;
+  }
+
+  /* line 260, ../scss/pdxc-main-styles.scss */
+  #site-sidebar-r {
+    display: none;
+  }
+
+  /**
+  * Post Layout Classes
+  */
+  /* line 269, ../scss/pdxc-main-styles.scss */
+  .post-header {
+    padding: 10px;
+    max-width: 100%;
+  }
+  /* line 272, ../scss/pdxc-main-styles.scss */
+  .post-header img {
+    max-height: 75px;
+    max-width: 320px;
+  }
+
+  /* line 279, ../scss/pdxc-main-styles.scss */
+  .single-post-header img {
+    max-height: 150px;
+  }
+
+  /* line 283, ../scss/pdxc-main-styles.scss */
+  .post-meta {
+    text-align: center;
+  }
+  /* line 285, ../scss/pdxc-main-styles.scss */
+  .post-meta .author {
+    margin: 0;
+  }
+  /* line 289, ../scss/pdxc-main-styles.scss */
+  .post-meta .post-date {
+    margin: 0;
+  }
+
+  /* line 296, ../scss/pdxc-main-styles.scss */
+  .post-title {
+    margin: 0;
+    text-align: center;
+  }
+
+  /**
+  * Comment and other styles
+  */
+  /* line 305, ../scss/pdxc-main-styles.scss */
+  .depth-2 ol {
+    display: none;
+  }
+}
